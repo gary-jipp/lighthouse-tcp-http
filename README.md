@@ -2,7 +2,7 @@
 
 # Networking with TCP and HTTP
 
-![internet](assets/internet.gif)
+![internet](assets/internet.jpg)
 
 ---
 
