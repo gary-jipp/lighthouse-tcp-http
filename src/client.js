@@ -4,8 +4,8 @@ const args = process.argv.slice(2);
 const message = args.join(' ');
 
 const connection = net.createConnection({
-  host: '165.227.47.243',
-  port: 50541
+  host: 'localhost',
+  port: 3001
 });
 
 connection.setEncoding("utf8");
@@ -17,7 +17,7 @@ connection.on('data', (data) => {
 connection.on('connect', () => {
   console.log('connected!');
   connection.write(message);
-  // connection.write("GET /animals\n"); // for web server
+  // connection.write("GET /animals\n\n"); // for web server
 });
 
 setTimeout(()=>{
