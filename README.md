@@ -6,7 +6,7 @@
 
 ### Overview 📢
 
-Last week you learned about _JavaScript_. You used the language to write programs that satisfy speu will learn how to uscific requirements and ran them using node. This week yoe js to Interface or communicate with the web. Specifically you will do this with  HTTP requests.
+Last week you learned about _JavaScript_. You used the language to write programs that satisfy spescific requirements and ran them using node. This week you will learn how to use node js to Interface or communicate with the web. Specifically you will do this with HTTP requests.
 
 Today we will look at:
 - [ ] internet
