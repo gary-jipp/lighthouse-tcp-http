@@ -1,5 +1,3 @@
-
-
 # Networking with TCP and HTTP
 
 ![internet](assets/internet.jpg)
