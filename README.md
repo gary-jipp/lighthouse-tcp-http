@@ -8,18 +8,18 @@
 
 ### Overview 📢
 
-Last week you learned about _JavaScript_. You used the language to write programs that satisfy specific requirements and ran them using node. This week you will learn how to use js to Interface or communicate with the web. Specifically you will do this with  HTTP requests. 
+Last week you learned about _JavaScript_. You used the language to write programs that satisfy speu will learn how to uscific requirements and ran them using node. This week yoe js to Interface or communicate with the web. Specifically you will do this with  HTTP requests.
 
 Today we will look at:
-- internet
-- networking
-- protocols
-- network layers
-- TCP / UDP
-- client / server
-- write a simple chat program
-- HTTP
-- write a simple web browser
+- [ ] internet
+- [ ] networking
+- [ ] protocols
+- [ ] network layers
+- [ ] TCP / UDP
+- [ ] client / server
+- [ ] write a simple chat program
+- [ ] HTTP
+- [ ] write a simple web browser
 
 ---
 
@@ -53,18 +53,18 @@ Behind the scenes a lot is happening so let's try and break it down.
 
  Routers determine the best path for information.
 
- Pretty soon universities, research institutes were using it.  Lotsof competing standards. Commercial licenses 
- 
+ Pretty soon universities, research institutes were using it.  Lotsof competing standards. Commercial licenses
+
  CERN - 1969  Tim Berners Lee.  HTTP / HTML / Free!
 
  The modern interet was born!
-. 
+.
 #
 #
 #
 #
 #
-# 
+#
 
 
 ---
@@ -149,7 +149,7 @@ Each of these network layers have protocols that use and build on the layers und
 
 The bottom layer handles how bits (0/1's) are physically transmitted from point a to point b so that the higher layers don't have to .
 
-Lets look at some of the things each layer does. 
+Lets look at some of the things each layer does.
 #
 ![osi model](assets/osi.svg)
 </section>
@@ -172,14 +172,14 @@ Lets look at some of the things each layer does.
 
 ## TCP (Conection based -  Very robust. Guaranteed delivery)
 
-Transmission Control Protocol is used to established networked communication between applications. 
+Transmission Control Protocol is used to established networked communication between applications.
 
 It exists at the transport layer of the OSI model.
 
-It is built on top of IP (internet protocol) and is responsible for dividing a file into segments to be sent through IP and combining those segments back into a file when they are recieved.  
+It is built on top of IP (internet protocol) and is responsible for dividing a file into segments to be sent through IP and combining those segments back into a file when they are recieved.
 
 - Connection based
-  - connection has to be established between two parties before info is sent. 
+  - connection has to be established between two parties before info is sent.
 - Congestion controll
 - error detection
 - lost data handling
@@ -191,7 +191,7 @@ Guarantees that all bytes received will be identical and in the same order as th
 
 ---
 
-## UDP 
+## UDP
 User Datagram Protocol is used to established networked communication between applications.
 
 Also exists at the transport layer of the OSI model.
@@ -210,7 +210,7 @@ I'd tell you a joke about UDP, but you might not get it.
 
 ---
 
-# 
+#
 # Hyper Text Transfer Protocol 📬
 
 Http sits in the highest network layer the application layer 👑. The application layer is responsible for process to process communication over the network.
@@ -237,10 +237,10 @@ telnet - low level network communication CLI tool
 
 ---
 
-# Other HTTP clients 
-curl, wget, rested, postman 
+# Other HTTP clients
+curl, wget, rested, postman
 
-https://example.com  
+https://example.com
 https://swapi.co/api/films
 
 ---
@@ -369,7 +369,7 @@ A server response contains three parts. The status line, headers and body data. 
 
 ---
 
-If example.com did not have a document to serve it could have started the response with  
+If example.com did not have a document to serve it could have started the response with
 
 `HTTP/1.1 404 Not Found`.
 
