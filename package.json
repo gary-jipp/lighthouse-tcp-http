@@ -1,0 +1,23 @@
+{
+  "name": "tcp-http",
+  "version": "1.0.0",
+  "description": "![internet](assets/internet.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gary-jipp/lighthouse-tcp-http.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gary-jipp/lighthouse-tcp-http/issues"
+  },
+  "homepage": "https://github.com/gary-jipp/lighthouse-tcp-http#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
