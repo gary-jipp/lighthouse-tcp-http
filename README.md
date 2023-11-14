@@ -17,6 +17,7 @@ Today we will look at:
 - [ ] client / server model
 - [ ] write a simple chat program
 - [ ] HTTP
+- [ ] Request Module
 - [ ] write a simple web browser
 
 ---
@@ -86,12 +87,10 @@ In the context of networks like the internet:
 > __Protocols are the rules that determine how to send, format, and recieved data between networked devices. These could be servers, routers, phones, personal computers and more.__
 
 #
----
 # Network Protocols
 What are some network protocols that you have heard of or used?
 
 #
----
 
 Here are some more.
 
@@ -116,10 +115,8 @@ Lets look at some of the things each layer does.
 </section>
 
 #
----
 
 # TCP & UDP
-
 ## TCP (Conection based -  Very robust. Guaranteed delivery)
 
 Transmission Control Protocol is used to established networked communication between applications.
@@ -141,7 +138,7 @@ Guarantees that all bytes received will be identical and in the same order as th
 
 ---
 
-## UDP
+## UDP (Connectionless - Faster but a bit less reliable)
 User Datagram Protocol is used to established networked communication between applications.
 
 Also exists at the transport layer of the OSI model.
@@ -359,6 +356,21 @@ From this information I can tell the date and time the message was created, and 
 
 Within a response the content body is usually a representation of the resource that was asked for. This is how a document made up of HTML, Image, JSON, JS, or CSS can be served.
 
+
+---
+
+## Node Request Module
+
+We can make http requests from our node.js programs using the `net` module but its usually easier to use a external module.  We will use the `request` module here.
+
+```javascript
+# npm install request
+
+request("http://example.com", (error, response, body)=>{
+  console.console.log(body);
+})
+
+```
 
 ---
 
