@@ -54,7 +54,7 @@ Behind the scenes a lot is happening so let's try and break it down.
  CERN - 1969  Tim Berners Lee.  HTTP / HTML / Free!
 
  The modern interet was born!
-.
+
 #
 ---
 
