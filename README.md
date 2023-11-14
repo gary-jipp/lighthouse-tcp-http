@@ -14,7 +14,7 @@ Today we will look at:
 - [ ] protocols
 - [ ] network layers
 - [ ] TCP / UDP
-- [ ] client / server
+- [ ] client / server model
 - [ ] write a simple chat program
 - [ ] HTTP
 - [ ] write a simple web browser
@@ -28,8 +28,6 @@ But first let's get an overview on how the internet works.
 ---
 
 ## Internet 101 🖥
-
-
 We know that in order to load a webpage, we type a URL (aka Link) into the address bar of our browser and once we hit enter the browser loads for a few seconds...
 
  and [BAAM](https://theuselessweb.com/) the page is on the screen. you
@@ -37,13 +35,12 @@ We know that in order to load a webpage, we type a URL (aka Link) into the addre
 
 
 Behind the scenes a lot is happening so let's try and break it down.
-
 ---
 
 ## Internet History
  1958! The Cold War was a thing.
 
- Eisenhower  Administration formed DARPA.  Defence Advanced Research Projects Agency.  Massive Budget to develop "new stuff" for "defence".
+ Eisenhower Administration formed DARPA.  Defence Advanced Research Projects Agency.  Massive Budget to develop "new stuff" for "defence".
 
  ARPANet - 1969 Communications defence.   Multiple paths of communication
 
@@ -51,20 +48,13 @@ Behind the scenes a lot is happening so let's try and break it down.
 
  Routers determine the best path for information.
 
- Pretty soon universities, research institutes were using it.  Lotsof competing standards. Commercial licenses
+ Pretty soon universities, research institutes were using it.  Lots of competing standards. Commercial licenses
 
  CERN - 1969  Tim Berners Lee.  HTTP / HTML / Free!
 
  The modern interet was born!
 .
 #
-#
-#
-#
-#
-#
-
-
 ---
 
 ## HTTP 📬  (Software Protocol)
@@ -73,13 +63,6 @@ Http is the backbone of the web and the primary way we communicate over it. If t
 
 Http stands for hypertext transfer protocol. Which is the technical lingo for:
 > Helping devices communicate over a network by a series of requests↪️ and responses↩️
-#
-#
-#
-#
-#
-#
-#
 #
 ---
 
@@ -103,20 +86,10 @@ In the context of networks like the internet:
 > __Protocols are the rules that determine how to send, format, and recieved data between networked devices. These could be servers, routers, phones, personal computers and more.__
 
 #
-#
-#
-#
-#
-#
-#
 ---
 # Network Protocols
 What are some network protocols that you have heard of or used?
-#
-#
-#
-#
-#
+
 #
 ---
 
@@ -129,20 +102,10 @@ Here are some more.
 - BitTorrent [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 - DHCP [Dynamic Host Configuration Protocol](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)
 - DNS [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)
-#
-#
-#
-#
-#
-#
-#
-#
 
 # Network Layers 🌈</h3>
 
-
-
-The internet is divided into layers.
+Networking  divided into layers.
 Each of these network layers have protocols that use and build on the layers underneath them.
 
 The bottom layer handles how bits (0/1's) are physically transmitted from point a to point b so that the higher layers don't have to .
@@ -152,18 +115,7 @@ Lets look at some of the things each layer does.
 ![osi model](assets/osi.svg)
 </section>
 
----
 #
-#
-#
-#
-#
-#
-#
-#
-#
----
-
 ---
 
 # TCP & UDP
