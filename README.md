@@ -2,13 +2,6 @@
 
 ![internet](assets/internet.jpg)
 
----
-
-### Overview 📢
-
-Last week you learned about _JavaScript_. You used the language to write programs that satisfy spescific requirements and ran them using node. This week you will learn how to use node js to Interface or communicate with the web. Specifically you will do this with HTTP requests.
-
-Today we will look at:
 - [ ] internet
 - [ ] networking
 - [ ] protocols
@@ -19,6 +12,10 @@ Today we will look at:
 - [ ] HTTP
 - [ ] Request Module
 - [ ] write a simple web browser
+
+### Overview 📢
+
+Last week you learned about _JavaScript_. You used the language to write programs that satisfy spescific requirements and ran them using node. This week you will learn how to use node js to Interface or communicate with the web. Specifically you will do this with HTTP requests.
 
 ---
 

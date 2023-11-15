@@ -1,9 +1,9 @@
 const net = require("net");
-const PORT = 3000;
+const PORT = 3001;
 
 const prompt = function(client) {
   client.write(`Users online: ${users}\n`);
-  client.write("Say something:");
+  client.write("Say something: ");
 };
 
 let users = 0;
