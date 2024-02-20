@@ -150,7 +150,8 @@ Also exists at the transport layer of the OSI model.
 I'd tell you a joke about UDP, but you might not get it.
 ---
 
-> demo char program
+> demo chat program(s)
+- client <-> server
 
 ---
 
