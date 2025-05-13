@@ -17,12 +17,13 @@ server.on("connection", (client) => {
   users++;
 
   // Identify incoming data is printable text
+  // client.setEncoding("hex");
   client.setEncoding("utf8");
   console.log("Someone connected!", client.remoteAddress);
   prompt(client);
 
   client.on("data", (data) => {
-    console.log(`[${client.remoteAddress}] says: ${data}`);
+    console.log(`[${client.remoteAddress}] says: [${data}]`);
     client.write(`You said: ${data}`);
 
     prompt(client);

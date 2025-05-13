@@ -1,5 +1,5 @@
 const UDP = require('dgram');
-const port = 2222;
+const port = 2389;
 
 const server = UDP.createSocket('udp4');
 
